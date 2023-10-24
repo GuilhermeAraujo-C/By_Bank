@@ -1,0 +1,82 @@
+.caixa1{
+    width: 100%;
+    height: 510px;
+    background-color: #569EEC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    width: 40%;
+}
+
+.cartao img{
+    width: 95%;
+}
+
+.text{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text h3{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 18px;
+}
+
+.button2{
+    width: 230px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0.2px solid #000;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa1{
+        flex-direction: column;
+        height: 900px;
+        text-align: center;
+    }
+
+    .cartao{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cartao img{
+        width: 400px;
+
+    }
+
+    .text{
+        width: 100%;
+        height: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .text h3{
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .text p{
+        font-size: 20px;
+    }
+
+    .button2{
+        margin-top: 25px;
+    }
+}

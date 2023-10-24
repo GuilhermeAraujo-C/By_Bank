@@ -1,0 +1,88 @@
+.caixa3{
+    width: 100%;
+    height: 510px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo1{
+    width: 40%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.c1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.c1 img{
+    width: 50px;
+}
+
+.c1 p{
+    width: 300px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.conteudo2{
+    width: 40%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudo2 h3{
+    width: 500px;
+    font-size: 60px;
+}
+
+.button3{
+    width: 230px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #1374DE;
+    color: #fff;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa3{
+        overflow-x: hidden;
+        flex-direction: column-reverse;
+        height: 690px;
+    }
+
+    .conteudo2{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .conteudo2 h3{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .button3{
+        visibility: hidden;
+    }
+
+    .conteudo1{
+        width: 100%;
+        height: auto;
+        gap: 45px;
+    }
+}

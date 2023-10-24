@@ -1,0 +1,139 @@
+.Main{
+    width: 100%;
+    height: 100vh;
+}
+
+.oConteudo2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mulherPreta{
+    width: 50%;
+    height: 100%;
+    background-image: url(../../img/mulherPreta.svg);
+    background-size: cover;
+}
+
+.aLogo{
+    position: relative;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Entrar2{
+   width: 50%;
+   height: 100%;
+   background-color: #1374DE;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.aLogo1{
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 51%;
+    visibility: hidden;
+}
+
+.Forms2{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Forms2 h3{
+    font-size: 35px;
+}
+
+form{
+    width: 95%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 17px;
+    color:#fff;
+} 
+
+input{
+    width: 100%;
+    height: 40px;
+    background-color: var(--chakra-colors-transparent);
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    font-size: 30px;
+    border-bottom: 3px solid #000;
+}
+.divButton2{
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin: auto;
+}
+
+.seta2{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seta2 h6{
+    font-size: 22px;
+}
+
+.seta2 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 480px) {
+    .mulherPreta{
+        display: none;
+    }
+
+    .Entrar2{
+        width: 100%;
+        height: 800px;
+    }
+
+    .Forms2 h3{
+        margin-top: 30px;
+    }
+
+    form{
+        width: 390px;
+    }
+
+    .aLogo1{
+        visibility: visible;
+        left: 10px;
+    }
+
+    .divButton2{
+        margin-top: 20px;
+    }
+}

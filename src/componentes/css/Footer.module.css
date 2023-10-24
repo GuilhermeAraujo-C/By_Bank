@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.logotipo{
+    width: 100%;
+    height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.logotipo img{
+    width: 100px;
+}
+
+.logotipo hr{
+    width: 97%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.logotipo h6{
+    font-size: 15px;
+    color: #fff;
+}

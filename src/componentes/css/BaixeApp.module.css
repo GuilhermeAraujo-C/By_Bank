@@ -1,0 +1,90 @@
+.caixa4{
+    width: 100%;
+    height: 600px;
+    background-color: #1374DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixa4 h3{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.download{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1{
+    width: 340px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.img1 img{
+    width: 60px;
+}
+
+.img1 h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+.button5{
+    width: 230px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #1374DE;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 480px){
+
+    .caixa4{
+        height: 1000px;
+        margin-top: 40px;
+    }
+
+    .caixa4 h3{
+        font-size: 50px;
+    }
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .button5{
+        margin-left: 0px;
+    }
+}
